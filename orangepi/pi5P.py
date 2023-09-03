@@ -7,10 +7,10 @@
 Usage:
 
 .. code:: python
-   import orangepi.5P
+   import orangepi.pi5P
    from OPi import GPIO
 
-   GPIO.setmode(orangepi.5P.BOARD) or GPIO.setmode(orangepi.5P.BCM)
+   GPIO.setmode(orangepi.pi5P.BOARD) or GPIO.setmode(orangepi.pi5P.BCM)
 """
 
 # pin number = (position of letter in alphabet - 1) * 32 + pin number
